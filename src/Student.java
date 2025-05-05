@@ -15,6 +15,8 @@ public class Student {
         this.name = name;
         this.address = address;
     }
+
+    //getters and setters
     public int getRollNumber() {
         return rollNumber;
     }
@@ -33,6 +35,8 @@ public class Student {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    @Override    //Overrides the toString method that is personalized
     public String toString () {
         return "The Students information is the following: \n\t Student Name: "
                 + name + "\n\t Roll Number:  " + rollNumber +

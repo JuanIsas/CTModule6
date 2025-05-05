@@ -8,3 +8,4 @@ public class NameComparator implements Comparator<Student> {
         return s1.getName().compareTo(s2.getName());
     }
 }
+//this method compares name by name in alphabetical order

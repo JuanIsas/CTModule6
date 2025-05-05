@@ -1,9 +1,8 @@
-import java.util.Collections;
 import java.util.Scanner;
 import java.util.ArrayList;
 
 
-public class Main {
+public class StudentList {
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
         ArrayList <Student> students = new ArrayList <>();
@@ -44,6 +43,7 @@ public class Main {
 
     }
 
+    //private method selection sort method with algorithm
     private static void selectionSort(ArrayList<Student> students) {
         int n = students.size();
         for (int i = 0; i < n-1; i++) {
